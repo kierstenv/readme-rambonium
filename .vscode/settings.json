@@ -1,0 +1,19 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#b95da9",
+    "editorBracketHighlight.foreground2": "#988ed8",
+    "editorBracketHighlight.foreground3": "#7084da",
+    "editorBracketHighlight.foreground4": "#da9be6",
+    "editorBracketHighlight.foreground5": "#988ed8",
+    "editorBracketHighlight.foreground6": "#8aa0be",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+  "workbench.preferredLightColorTheme": "Kawaii Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true
+}
