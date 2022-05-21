@@ -6,7 +6,7 @@
   
   ***
 
-![App Screenshot](./utils/img/app.png)
+![App Demo](./utils/img/readme-rambonium-demo.gif)
 
  ## Table of Contents 
 * [Description](#Description)
@@ -26,7 +26,10 @@
   ```
   
   ## Usage 
-  To use the readme rambonium, run `node index.js` and answer the prompted questions.
+  To use the readme rambonium, run `node index.js` and answer the prompted questions. View the [generatedREADME.md](generatedREADME.md) file to see the generated read me!
+  
+  For a visual walkthrough, watch the [demo video](https://drive.google.com/file/d/1fNVnfrQrvfB2WtXA9U0KHgGxslAV-ub9/view).
+
 
   ## Languages & Tools 
 [![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)[![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/)
