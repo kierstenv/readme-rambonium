@@ -6,15 +6,15 @@
   
   ***
 
-![App Demo](./utils/img/readme-rambonium-demo.gif)
+  ![App Demo](./utils/img/app-demo.gif)
 
- ## Table of Contents 
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Questions](#Questions) 
-***
+  ## Table of Contents 
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Questions](#Questions) 
+  ***
 
   
   ## Installation 
@@ -28,19 +28,19 @@
   ## Usage 
   To use the readme rambonium, run `node index.js` and answer the prompted questions. View the [generatedREADME.md](generatedREADME.md) file to see the generated read me!
   
-  For a visual walkthrough, watch the [demo video](https://drive.google.com/file/d/1fNVnfrQrvfB2WtXA9U0KHgGxslAV-ub9/view).
+  For a visual walkthrough, watch the [demo video](https://watch.screencastify.com/v/AasJOjC0fAKnTvcLMDTz).
 
 
   ## Languages & Tools 
-[![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)[![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/)
+  [![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)[![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/)
 
   ## License
 
   Licensed under the MIT license. See [LICENSE.TXT](./LICENSE.TXT) for more information.
 
   ## Contributing 
-This project is open source and we welcome contributions from the community. 
-Please visit the [GitHub repository](https://www.github.com/kierstenv/readme-rambonium) to see how to contribute. 
+  This project is open source and we welcome contributions from the community. 
+  Please visit the [GitHub repository](https://www.github.com/kierstenv/readme-rambonium) to see how to contribute. 
 
 
   
