@@ -4,7 +4,6 @@ const inquirer = require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-
 const questions = [
   {
     type: "input",
@@ -19,7 +18,7 @@ const questions = [
   {
     type: "checkbox",
     name: "tableOfContents",
-    message: "What sections would you like to include in your README?",
+    message: "What sections would you like to include in your README table of contents?",
     choices: ["Description", "Installation", "Usage", "License", "Contributing", "Tests", "Questions"],
   },
   {
@@ -53,11 +52,12 @@ const questions = [
       "Bootstrap",
       "Express.js",
       "JQuery",
+      "JSON",
       "Node.js",
       "NPM",
       "React",
       "Redux",
-      "Vue.js",
+      "Vue",
       new inquirer.Separator(" = Cloud = "),
       "Heroku",
       new inquirer.Separator(" = Databases = "),
@@ -74,9 +74,9 @@ const questions = [
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "BSD 2", "ISC", "UNLICENSED"],
   },
   {
-    type: "input",
+    type: "confirm",
     name: "contributing",
-    message: "What do other developers need to know about contributing to the repo?",
+    message: "Would you like others to contribute to your project?",
   },
   {
     type: "checkbox",
@@ -95,9 +95,10 @@ const questions = [
     message: "What is your email address?",
   },
   {
-    type: "input",
+    type: "checkbox",
     name: "credits",
     message: "Who contributed to this project?",
+    choices: ["UT Austin CBC", "Github", "MDN Web Docs", "Stack Overflow", "W3Schools"],
   }
 ];
 
@@ -107,6 +108,7 @@ const writeToFile = (fileName, data) => {
     if (err) {
       throw err;
     } else {
+      console.log(data)
       console.log('Successfully wrote to README.md');
     }
   });
