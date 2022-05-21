@@ -5,6 +5,9 @@
   Tired of typing tedious readme files for each project you do? Type no further! Simply install the readme rambonium, answer the prompted questions, and have a README.md generated for your repo! 
   
   ***
+
+![App Screenshot](./utils/img/app.png)
+
  ## Table of Contents 
 * [Description](#Description)
 * [Installation](#Installation)
