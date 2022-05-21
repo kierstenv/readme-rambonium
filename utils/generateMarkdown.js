@@ -95,7 +95,14 @@ const renderTests = (tests) => {
     return "## Tests \n" + tests.map(test => testBadges[test]).join('');
   }
   return "";
-};    
+};
+
+const renderQuestions = (github, gmail) => {
+  if (github.length || gmail.length) {
+    return "## Questions? \n" + "\n Feel free to contact me! \n" + `[![Github](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://www.github.com/${github})` + "\n" + `[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:${gmail})`;
+  }
+  return "";
+};
 
 const renderCredits = (credits) => {
   if (credits.length) {
@@ -140,15 +147,10 @@ function generateMarkdown(data) {
 
   ${renderTests(data.tests)}
 
-  ## Questions?
-  Feel free to contact me!
+  ${renderQuestions(data.github, data.gmail)}
 
-  [![Github](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://www.github.com/${
-    data.github
-  })
-  ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)
-  
   ${renderCredits(data.credits)}
+  
   `;
 }
 

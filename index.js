@@ -91,8 +91,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "email",
-    message: "What is your email address?",
+    name: "gmail",
+    message: "What is your gmail address?",
   },
   {
     type: "checkbox",
